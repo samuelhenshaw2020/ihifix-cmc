@@ -2,6 +2,7 @@
     letter-spacing: -1px;
     font-family: -apple-    system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
 } */
+
 .root{
     --red: #E42C04;
     --primary: #05145A !important;
@@ -11,7 +12,13 @@
 }
 
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family:  'Franklin Gothic Medium'; */
+
+  }
+
+.strike{
+  text-decoration: line-through;
 }
 
 .x-font-400{
@@ -36,17 +43,30 @@ body{
   min-height: 60px !important;
 }
 
-.side-container .cont{
+.side-container .seller-content{
   position: relative;
+  min-width: 132.8px !important;
+  width: 150px !important;
 }
 
-.side-container .cont .tag{
+.side-container .seller-content .tag{
    position: absolute;
    right: 5px;
    top: 0px;
    width: fit-content !important;
    border-radius: 0px;
    z-index: 900;
+}
+
+.off{
+  position: absolute;
+  right: 6%;
+  top: 6%;
+  padding: 5% !important;
+
+  /* width:  !important; */
+  /* border-radius: 0px; */
+  z-index: 900;
 }
 
 
@@ -58,7 +78,9 @@ body{
 
 }
 
-.carousel .carousel-inner .carousel-item
+.carousel .carousel-inner .carousel-item{
+  
+}
 
 
 
@@ -66,23 +88,45 @@ body{
 /* width */
 .side-container::-webkit-scrollbar {
   width: 10px;
-  height: 5px;
+  height: 5px !important;
 }
 
 /* Track */
 .side-container::-webkit-scrollbar-track {
-  background: transparent;
+  background: transparent !important;
 }
 
 /* Handle */
 .side-container::-webkit-scrollbar-thumb {
-  background: rgb(219, 219, 219);
+  background: rgb(228, 227, 227) !important;
 }
 
 /* Handle on hover */
 .side-container::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #555 !important;
 }
+
+.product-show{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-content: stretch;
+}
+
+.product-show .card{
+  min-width: 250px ;
+  margin: 0.5rem;
+}
+
+.product-show .card img{
+  width: 150px;
+}
+
+.product-show .card .product-show-image{
+    height: 150px;
+    overflow-y: hidden;
+}
+
+
 
 
 
@@ -165,13 +209,18 @@ input.form-control:focus, input.input:focus{
 
   
 
-*{
+/* *{
     color: rgb(90, 89, 89);
-}
+} */
 
 @media(max-width: 600px){
   .side-container::-webkit-scrollbar {
     height: 0px;
+  }
+  .product-show .card{
+    min-width: 35% !important ;
+    width: 45% !important ;
+    border: none;
   }
   
 }

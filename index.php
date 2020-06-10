@@ -1,18 +1,11 @@
 <?php
     include('includes/header.php');
+
 ?>
-</head>
-<body class="has-background-light" >
 
-
-    <?php 
-        include('includes/top-nav.php');
-        include('includes/navbar.php');
-    ?>
-
-    <main class="container">
+<main class="container">
         <?php include('includes/index-category-sort.php');?>
-    </main>
+</main>
 
 
 
@@ -20,13 +13,14 @@
     <section class="container  ">
         <main class="row ">
 
-            <div class="col-md ">
+            <div class="col-md px-0">
                 <?php include('includes/index-slide-image.php'); ?>
             </div>
 
-            <div class="col-md-3 ">
+            <div class="col-md-3 d-none d-sm-inline pr-1 ">
+                <!--Images must have the dimension: 355 x 300-->
                 <figure class="figure">
-                    <img src="img/cmc/top-right-box/BSB-stay-safe.gif" class="figure-img  m-0 img-fluid rounded" alt="...">
+                    <img src="img/cmc/top-right-box/FS-bsb-2.jpg" class="figure-img m-0 img-fluid rounded" alt="...">
                 </figure>
 
                 <figure class="figure ">
@@ -39,62 +33,64 @@
     </section>
     
 
-    <section>
-        
+
+
+    
+    
+
+
+    <!-- BEST SELLERS PRODUCTS -->
+    <section class="has-background-white container px-0 p-sm-2">
+        <?php include('includes/best-seller.php') ?>
+    </section>
+        <br>
+
+
+    <!-- TOP SERVICES -->
+    <section class="has-background-white container px-0 p-sm-2">
+         <?php include('includes/top-service.php') ?>
+    </section>
+    <br>
+
+
+
+
+    
+    <!-- PRODUCTS -->
+    <section class="has-background-white container px-0 p-sm-2" >
+        <?php include('includes/index-show-product.php') ?>
     </section>
 
-    
-    
 
+    <!-- HOW IHIFIX WORK -->
+    <section class="has-background-light  container  ">
+        <div class="py-4 px-2 ">
+             <h3 class="text-center  x-font-500">How Ihifix Work?</h3>
+             <div class="d-flex justify-content-center">
+                 <hr class="w-25">
+             </div>
+             <div class="row">
+             <div class="col-md">
+                    <video width="100%" height="240" controls>
+                        <source src="video/intro.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                 </div>
+                 <div class="col-md-5 text-center text-sm-left">
+                     <h1 class="x-font-500 text-center text-sm-left ">Take your Business, Hobbies and Products to the Public </h1>
+                     <p class=" lead x-text-dark">Discover the joy on harnessing the digital space with  Ihifix. Over billions of potential customers are waiting</p>
+                     <button class="button is-success is-large x-font-700">Get Started</button>
+                    </div>
+                
+             </div>
+        </div>
+    </section>
+    <br>
 
-    <!-- BEST SElLERS PRODUCTS -->
-    <section class="has-background-white container">
+    <section class="has-background-white  container px-0 p-sm-2">
         <div class="p-2">
-            <p class="x-font-500">Best seller Product</p>
-            <div class=" side-container d-flex my-auto text-center  ">
-                   
-                    <div class="card border-0 cont" >
-                        <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
-                        <a href="#" class="text-center mr-2 " style="line-height: 15px; min-width: 65px">
-                                <figure class="image is-128x128">
-                                    <img src="img/cmc/2.png" alt="" class="d-block mx-auto">
-                                </figure>
-                                <span style="font-size: 12px; font-weight: 500" class=" text-dark">Dell 350 with man</span>
-                        </a>
-                    </div>
+            
 
-                    <div class="card border-0 cont" >
-                        <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
-                        <a href="#" class="text-center mr-2 " style="line-height: 15px; min-width: 65px">
-                                <figure class="image is-128x128">
-                                    <img src="img/cmc/3.jpg" alt="" class="d-block mx-auto">
-                                </figure>
-                                <span style="font-size: 12px; font-weight: 500" class=" text-dark">Dell 350 with man</span>
-                        </a>
-                    </div>
-
-                    <div class="card border-0 cont" >
-                        <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
-                        <a href="#" class="text-center mr-2 " style="line-height: 15px; min-width: 65px">
-                            <figure class="image is-128x128">
-                                <img src="img/cmc/1.jpg" alt=""  class="d-block mx-auto">
-                            </figure>
-                                <span style="font-size: 12px; font-weight: 500" class=" text-dark">Dell 350 with man</span>
-                        </a>
-                    </div>
-
-                    <div class="card border-0 cont" >
-                        <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
-                        <a href="#" class="text-center mr-2 " style="line-height: 15px; min-width: 65px">
-                            <figure class="image is-128x128">
-                                <img src="img/cmc/6.png" alt=""  class="d-block mx-auto">
-                            </figure>
-                                <span style="font-size: 12px; font-weight: 500" class=" text-dark">Dell 350 with man</span>
-                        </a>
-                    </div>
-
-                   
-            </div>
         </div>
     </section>
 
@@ -102,4 +98,5 @@
 
 
     <!-- FOOTER -->
+    <br>
     <?php include('includes/footer.php'); ?>

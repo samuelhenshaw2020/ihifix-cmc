@@ -1,31 +1,28 @@
 
 <nav class="navbar navbar-expand-sm  bg-white x-shadow sticky-top">
     <main class="container">
-        <div>
-
-            <a href="#" class="navbar-brand">
-                <?php include('sm-side-nav.php') ?>
-                <img src="img/logo.png" alt="ihifix logo" width="80px">
+        <div >
+            <?php include('sm-side-nav.php') ?>
+            <a href="index.php" class="navbar-brand ">
+                <img src="img/logo.png" alt="ihifix logo" width="90px">
             </a>
         </div>
 
-        <div class="navbar-collapse collapse">
+        <div class="navbar-collapse collapse ml-2">
             <div>
                 <ul class="navbar-nav">
                     <li class="nav-item ">
-                        <a class="button is-white is-rounded  " >
+                        <a class="button is-white is-rounded  " href="shop.php">
                             <span class="x-font-500"> Shops</span>
-                            <i class="fa fa-angle-down font-weight-bold ml-1  x-text-dark"></i>
                         </a>
                     </li>
                     <li class="nav-item pl-1">
-                        <button class="button is-white is-rounded" href="#">
+                        <a class="button is-white is-rounded" href="services.php">
                             <span class="icon is-small d-sm-none">
                                 <i class="fa fa-list-ul"></i>
                             </span>
-                            <span class="x-font-500">Categories</span>
-                            <i class="fa fa-angle-down font-weight-bold ml-1 x-text-dark"></i>
-                        </button>
+                            <span class="x-font-500">Services</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -84,14 +81,20 @@
                     <span style="font-size: 12px; font-weight: 500" class=" text-dark">Home</span>
             </a>
 
-            <a href="#" class="text-center" style="line-height: 7px">
+            <a href="shop.php" class="text-center" style="line-height: 7px">
                     <img src="img/navbar/store.svg" alt="" width="20px" class="d-block mx-auto">
                     <span style="font-size: 12px; font-weight: 500" class=" text-dark">Shops</span>
             </a>
 
             <a href="#" class="text-center" style="line-height: 7px">
-                    <img src="img/navbar/category.svg" alt="" width="20px" class="d-block mx-auto">
-                    <span style="font-size: 12px; font-weight: 500" class=" text-dark">Category</span>
+                    <img src="img/navbar/product.svg" alt="" width="20px" class="d-block mx-auto">
+                    <span style="font-size: 12px; font-weight: 500" class=" text-dark">Products</span>
+            </a>
+
+
+            <a href="services.php" class="text-center" style="line-height: 7px">
+                    <img src="img/navbar/order.svg" alt="" width="20px" class="d-block mx-auto">
+                    <span style="font-size: 12px; font-weight: 500" class=" text-dark">Services</span>
             </a>
 
             <a href="#" class="text" style="line-height: 7px">
