@@ -8,8 +8,11 @@
         </div>
     </footer>
 
+    <!-- JAVASCRPT -->
+    <script src="js/lib/jquery-3.5.1.min.js" ></script>
+    <script src="js/lib/popper.min.js" ></script>
+    <script src="js/lib/bootstrap.min.js" ></script>
 </body>
 </html>
-<script src="js/lib/popper.min.js" ></script>
-<script src="js/lib/bootstrap.min.js" ></script>
+
 <script src="js/sm-side-nav.js" ></script>

@@ -10,5 +10,7 @@
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/sm-side-nav.css">
+    
    
-    <script src="js/lib/jquery-3.5.1.min.js" ></script>
+    
+    

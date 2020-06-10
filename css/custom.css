@@ -31,8 +31,37 @@ body{
 }
 
 .side-container{
-  overflow-x: scroll !important; overflow-y: hidden !important; min-height: 60px !important;
+  overflow-x: scroll !important; 
+  overflow-y: hidden !important; 
+  min-height: 60px !important;
 }
+
+.side-container .cont{
+  position: relative;
+}
+
+.side-container .cont .tag{
+   position: absolute;
+   right: 5px;
+   top: 0px;
+   width: fit-content !important;
+   border-radius: 0px;
+   z-index: 900;
+}
+
+
+/* INDEX CAROUSEL */
+.carousel ol.carousel-indicators li{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+
+}
+
+.carousel .carousel-inner .carousel-item
+
+
+
 
 /* width */
 .side-container::-webkit-scrollbar {
