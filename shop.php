@@ -38,27 +38,94 @@
 
 
 <section class="has-background-white container px-0 p-sm-2 my-2">
-<div class="p-2 ">
-            <div class="shop-show  d-flex my-auto justify-content-center text-center pb-2  ">
+            <main class="shop-show  d-flex my-auto   pb-2  p-sm-2">
 
 
-                    <div class="card  mr-3  x-shadow service-card" style="background-image: url(img/cmc/slide/s-get-smart-now.jpg); ">
+            <div class="card  mr-3 border-0 p-0 "  >
+                        <div class="shop-show-gallary  text-center  bg-ligh" >
+                              <div class="shop-show-img  d-flex">
+                                  <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
+                                  <img src="img/cmc/3.jpg" class=" m-auto img-fluid rounded" alt="...">
+                              </div>
+                              <div class="shop-show-img  d-flex">
+                                  <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
+                                  <img src="img/cmc/7.png" class=" m-auto img-fluid rounded" alt="...">
+                              </div>
+                              <div class="shop-show-img  d-flex">
+                                  <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
+                                  <img src="img/cmc/6.png" class=" m-auto img-fluid rounded " alt="...">
+                              </div>
+                              <div class="shop-show-img  d-flex">
+                                  <span class="tag is-danger is-light x-font-700 px-1 " >-30%</span> <!-- % off -->
+                                  <img src="img/cmc/3.jpg" class=" m-auto img-fluid rounded " alt="...">
+                              </div>
+                        </div>
 
-                        <div  class="w-100 h-100  p-3  service-card-inner ">
-                            <div class="media">
-                                <img src="img/me.png" alt="" style="width: 25px">
-                                    <div class="media-body ml-1">
-                                        <span class="x-font-600 text-light " style="text-shadow: 0px 0px 3px lightgrey; font-size: 13px">Henshaw</span>
-                                    </div>
-                                </div>
+                        <div  class="card-body p-2  bg-  ">
+                            <div>
+                                <a href="#" class="card-link font-weight-bold text-dark x-font-700  lead" >
+                                      <img src="img/navbar/store.svg" alt="" width="20px" style="opacity:0.4">
+                                      <span>Panache Store Internat</span>
+                                </a>
+                                <p class="small x-font-400  x-text-dark mb-0">Dealers of automobile parts and Ice scream</p>
                             </div>
-                            <div  class=" bg-white text-light text-left pl-2 card-body">
-                                <h3><a href="#" class="card-link stretched-link text-light font-weight-bold" style="text-shadow: 0px 0px 3px lightgrey">Get a Graphic Designer</a></h3>
+                            <div class="  ">
+                                <span class="ta  is-white ">
+                                  <i class="text-warning fa fa-star "></i>
+                                  <span class="x-font-700 x-text-dark small"> 2.3</span>
+                                </span>
+                                <span class="tag is-white ml-0 pl-0  ">
+                                    <img src="img/services/location.svg" alt="" width="15px" class="m-auto" style="opacity: 0.5" >
+                                    <span class="x-font-500 x-text-dark">Kaduna</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card  mr-3 border-0 p-0 "  >
+                        <div class="shop-show-gallary  text-center  bg-lght" >
+                              <div class="shop-show-img  d-flex">
+                                  <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
+                                  <img src="img/cmc/10.jpg" class=" m-auto img-fluid rounded" alt="...">
+                              </div>
+                              <div class="shop-show-img  d-flex">
+                                  <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
+                                  <img src="img/cmc/1.jpg" class=" m-auto img-fluid rounded" alt="...">
+                              </div>
+                              <div class="shop-show-img  d-flex">
+                                  <span class="tag is-danger is-light x-font-700 px-1 ">-30%</span> <!-- % off -->
+                                  <img src="img/cmc/6.png" class=" m-auto img-fluid rounded " alt="...">
+                              </div>
+                              <div class="shop-show-img  d-flex">
+                                  <span class="tag is-danger is-light x-font-700 px-1 " >-30%</span> <!-- % off -->
+                                  <img src="img/cmc/3.jpg" class=" m-auto img-fluid rounded " alt="...">
+                              </div>
+                        </div>
+
+                        <div  class="card-body p-2  bg-  ">
+                            <div>
+                                <a href="#" class="card-link font-weight-bold text-dark x-font-700  lead" >
+                                      <img src="img/navbar/store.svg" alt="" width="20px" style="opacity:0.4">
+                                      <span>Panache Store Internat</span>
+                                </a>
+                                <p class="small x-font-400  x-text-dark mb-0">Dealers of automobile parts and Ice scream</p>
+                            </div>
+                            <div class="  ">
+                                <span class="ta  is-white ">
+                                  <i class="text-warning fa fa-star "></i>
+                                  <span class="x-font-700 x-text-dark small"> 2.3</span>
+                                </span>
+                                <span class="tag is-white ml-0 pl-0  ">
+                                    <img src="img/services/location.svg" alt="" width="15px" class="m-auto" style="opacity: 0.5" >
+                                    <span class="x-font-500 x-text-dark">Kaduna</span>
+                                </span>
                             </div>
                         </div>
                     </div>
             
-        </div>
+            </main>
 
 </section>
 

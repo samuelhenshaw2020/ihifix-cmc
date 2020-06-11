@@ -18,4 +18,3 @@
 </html>
 
 <script src="js/sm-side-nav.js" ></script>
-<

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/sm-side-nav.css">
+    <link rel="stylesheet" href="css/search.css">
 
     <link rel="stylesheet" href="css/service-card.css">
 </head>

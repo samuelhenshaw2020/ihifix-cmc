@@ -32,7 +32,8 @@
 .service-show{
     display: flex !important;
     flex-wrap: wrap !important;
-    align-content: stretch;
+    -ms-flex-pack: start !important;
+    justify-content: start !important;
 }
 
 .service-show .card{
@@ -41,8 +42,100 @@
   max-height: 300px;
   min-height: 300px;
   margin: 0.7rem;
-  border-radius: 10px  !important;
+  border-radius: 5px  !important;
 }
+
+
+.shop-show, .shop-show-gallary, .product-show{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-content: stretch;
+    position: relative;
+    -ms-flex-pack: start !important;
+  justify-content: start !important;
+    
+}
+
+
+
+.shop-show .card{
+    overflow: hidden;
+    width: 300px;;
+    min-width: 300px ;
+    min-height: 300px;
+    margin: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+    
+    
+  }
+
+.shop-show .shop-show-img{
+    overflow: hidden;
+    width:50% ;
+    height: 120px;
+    position: relative !important;
+    padding: 1%;
+  }
+
+  .shop-show .shop-show-img img{
+      width: 80%;
+  }
+
+
+
+  
+
+  .shop-show .shop-show-img  .tag{
+    position: absolute ;
+    right: 5px ;
+    top: 10px ;
+    width: fit-content ;
+    border-radius: 0px;
+    z-index: 900;
+}
+
+  .shop-show .shop-show-img img:hover{
+    transform: scale(1.2);
+
+  }
+
+
+/*  */
+.product-show .card{
+    overflow: hidden;
+    min-width: 200px ;
+    max-width: 200px ;
+    min-height: 250px;
+    margin: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+}
+
+.product-show  .product-show-image{
+    overflow: hidden;
+    width:100% ;
+    /* height: 150px; */
+    position: relative !important;
+    padding: 1%;
+}
+
+.product-show .product-show-image img{
+    width: 80%;
+}
+
+
+.product-show .product-show-image .tag{
+    position: absolute ;
+    right: 5px ;
+    top: 10px ;
+    width: fit-content ;
+    border-radius: 0px;
+    z-index: 900;
+}
+
+
+
+
+
 
 
 
@@ -58,4 +151,19 @@
         max-height: 200px;
         margin: 0.3rem;
       }
+    .shop-show .card{
+        box-shadow: none ;
+        border-bottom: 1px solid lightgray !important;
+        border-radius: 0px;
+        width: 100%;
+    }
+    .product-show .card{
+        min-width: 100px ;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.04);
+    }
+    
+    .shop-show, .service-show {
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
 }

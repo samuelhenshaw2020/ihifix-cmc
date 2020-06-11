@@ -81,25 +81,24 @@
                     <span style="font-size: 12px; font-weight: 500" class=" text-dark">Home</span>
             </a>
 
-
             <a href="shop.php" class="text-center" style="line-height: 7px">
                     <img src="img/navbar/store.svg" alt="" width="20px" class="d-block mx-auto">
-                    <span style="font-size: 12px; font-weight: 500" class=" text-dark">Shops</span>
+                    <span style="font-size: 12px; font-weight: 500" class=" text-dark">Services</span>
             </a>
 
-            
-
             <a href="services.php" class="text-center" style="line-height: 7px">
-                    <img src="img/topnav/plus-user.svg" alt="" width="20px" class="d-block mx-auto">
-                    <span style="font-size: 12px; font-weight: 500" class=" text-dark">Seller</span>
+                    <img src="img/topnav/plus-services.svg" alt="" width="20px" class="d-block mx-auto">
+                    <span style="font-size: 12px; font-weight: 500" class=" text-dark">Add</span>
             </a>
 
             <a href="search.php" class="text" style="line-height: 7px">
-
                     <img src="img/navbar/search.svg" alt="" width="20px" class="d-block mx-auto">
-
                     <span style="font-size: 12px; font-weight: 500" class=" text-dark">Search</span>
+            </a>
 
+            <a href="search.php" class="text" style="line-height: 7px">
+                    <img src="img/topnav/user.svg" alt="" width="20px" class="d-block mx-auto">
+                    <span style="font-size: 12px; font-weight: 500" class=" text-dark">User</span>
             </a>
 
     </div>

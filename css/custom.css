@@ -79,9 +79,6 @@ body{
 
 }
 
-.carousel .carousel-inner .carousel-item{
-  
-}
 
 
 
@@ -107,25 +104,6 @@ body{
   background: #555 !important;
 }
 
-.product-show{
-    display: flex !important;
-    flex-wrap: wrap !important;
-    align-content: stretch;
-}
-
-.product-show .card{
-  min-width: 250px ;
-  margin: 0.5rem;
-}
-
-.product-show .card img{
-  width: 150px;
-}
-
-.product-show .card .product-show-image{
-    height: 150px;
-    overflow-y: hidden;
-}
 
 
 
@@ -146,8 +124,11 @@ body{
     color: rgb(136, 135, 135);
 }
 
+.x-text-dark-bold{
+  color: rgb(117, 117, 117);
+}
 .x-text-dark-light{
-    color: rgb(156, 156, 156);
+    color: rgb(196, 196, 196);
 }
 
 
