@@ -4,18 +4,40 @@
 
 
 <!-- BODY -->
-<br>
-<section  class="has-background-white container px-0 p-sm-2">
-    <div class="p-2">
-        <h6 class="text-left  x-font-500 ml-5">Services</h6>
-        <div>
-            
+
+<section  class="has-background-white container px-0 p-sm-2 my-2">
+    <div class="px-3 py-1 d-flex  ">
+        <h6 class="text-left  x-font-500  my-auto">Services</h6>
+        <div class="dropdown is-right ml-auto mr-3">
+            <button class="button is-light "  data-toggle="dropdown" aria-haspopup="true" >
+                <img src="img/services/location.svg" alt="" width="20px" class="d-block mx-auto" style="opacity: 0.5" >
+                 
+                <span class="x-font-500">Location</span>
+            </button>
+            <div class="dropdown-menu" >
+                <a class="dropdown-item" href="#">Abia</a>
+                <a class="dropdown-item" href="#">Adamawa</a>
+            </div>
+        </div>
+        <div class="dropdown is-right">
+            <button class="button is-light "  data-toggle="dropdown" aria-haspopup="true" >
+                <img src="img/services/filter.svg" alt="" width="20px" class="d-block mx-auto" style="opacity: 0.5" >
+                 
+                <span class="x-font-500">Filter</span>
+            </button>
+            <div class="dropdown-menu" >
+                <a class="dropdown-item" href="#">IT and Programming</a>
+                <a class="dropdown-item" href="#">Content and Writing</a>
+                <a class="dropdown-item" href="#">Digital Marketing</a>
+                <a class="dropdown-item" href="#">Graphics and Design</a>
+                <a class="dropdown-item" href="#">Photography</a>
+            </div>
         </div>
     </div>
 </section>
 
-<br>
-<section class="has-background-white container px-0 p-sm-2">
+
+<section class="has-background-white container px-0 p-sm-2 my-2">
 <div class="p-2 ">
             <div class="service-show  d-flex my-auto justify-content-center text-center pb-2  ">
 

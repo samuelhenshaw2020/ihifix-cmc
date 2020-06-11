@@ -16,14 +16,14 @@
                             <span class="x-font-500"> Shops</span>
                         </a>
                     </li>
-                    <li class="nav-item pl-1">
+                    <!-- <li class="nav-item pl-1">
                         <a class="button is-white is-rounded" href="services.php">
                             <span class="icon is-small d-sm-none">
                                 <i class="fa fa-list-ul"></i>
                             </span>
                             <span class="x-font-500">Services</span>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -76,7 +76,7 @@
 
     <div class="d-flex justify-content-around my-auto lead">
 
-            <a href="#" class="text-center" style="line-height: 7px">
+            <a href="index.php" class="text-center" style="line-height: 7px">
                     <img src="img/navbar/home-run.svg" alt="" width="20px" class="d-block mx-auto">
                     <span style="font-size: 12px; font-weight: 500" class=" text-dark">Home</span>
             </a>

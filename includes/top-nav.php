@@ -1,8 +1,31 @@
 <main class="container px-0">
 <img src="img/banner.JPG" alt="top banner image" class="img img-fluid">
-<nav class=" d-flex justify-content-between">
-   <div>
-    <ul class="nav ">
+<nav class=" d-sm-flex  justify-content-between">
+   <div class="">
+        <ul class="nav text-center ">
+            <li class="nav-item">
+                    <a class="button is-light is-rounded px-1">
+                        <img src="img/topnav/cart.svg" alt="cart" width="25px">&nbsp;
+                        <span class=" x-font-700" style="font-family: Century Gothic">STORE</span>
+                    </a>
+            </li>
+            <li class="nav-item ">
+                    <a class="button is-light is-rounded px-1">
+                        <img src="img/topnav/consulting.svg" alt="cart" width="25px">&nbsp;
+                        <span class=" x-font-700" style="font-family: Century Gothic">SERVICES</span>
+                    </a>
+            </li>
+            <li class="nav-item">
+                    <a class="button is-light is-rounded px-1">
+                        <img src="img/topnav/internet.svg" alt="cart" width="25px">&nbsp;
+                        <span class=" x-font-700" style="font-family: Century Gothic">WEBSITE</span>
+                    </a>
+            </li>
+        </ul>
+   </div>
+
+    <div class=" my-auto">
+        <ul class="nav ">
             <li class="nav-item dropdown">
                     <a  class="button is-light is-rounded is-small" data-toggle="dropdown">
                         <i class="fa fa-question-circle-o  fa-lg"></i>&nbsp;
@@ -18,11 +41,6 @@
                     
                 </div>
                 </li>
-        </ul>
-   </div>
-
-    <div class=" my-auto">
-        <ul class="nav ">
                 <li class="nav-item">
                     <a class="button is-light is-rounded is-small">
                         <img src="img/topnav/best-seller.svg" alt="cart" width="17px">&nbsp;
