@@ -3,7 +3,7 @@
     <main class="container">
         <div >
             <?php include('sm-side-nav.php') ?>
-            <a href="index.php" class="navbar-brand ">
+            <a href="index.php" class="navbar-brand d-none d-sm-inline">
                 <img src="img/logo.png" alt="ihifix logo" width="90px">
             </a>
         </div>
@@ -29,25 +29,18 @@
         </div>
 
 
-        <div class="d-flex">
+        
 
-            <div class="control  has-icons-left d-none d-sm-inline">
+            <div class="control  has-icons-left mx-auto ">
                 <span class="icon ">
                     <i class="fa fa-search  x-text-dark"></i>
                 </span>
-                <input class="input  is-normal is-rounded  " type="search"  placeholder="Search courses, programs...">
+                <input class="input  is-normal  " type="search"  placeholder="Search courses, programs...">
             </div>
 
-            <button class="button is-white is-rounded">
-                <span class="x-notification icon">
-                    <img src="img/topnav/supermarket.svg" alt="cart" width="22px">
-                    <span class="x-badge">3</span>
-                </span>
-                <span class="x-font-500 d-none d-sm-inline">Cart</span>
-            </button>
 
             <div class="dropdown  is-right">
-                <button class="button is-white is-rounded " data-toggle="dropdown">
+                <button class="button is-white is-rounded px-1 px-sm-4" data-toggle="dropdown">
                     <span class="icon ">
                         <img src="img/topnav/user.svg" alt="cart" width="22px">
                     </span>
@@ -64,7 +57,7 @@
                 </div>
             </div>
 
-        </div>
+
 
     </main>
 </nav>
@@ -76,7 +69,7 @@
 
     <div class="d-flex justify-content-around my-auto lead">
 
-            <a href="index.php" class="text-center" style="line-height: 7px">
+            <a href="#" class="text-center" style="line-height: 7px">
                     <img src="img/navbar/home-run.svg" alt="" width="20px" class="d-block mx-auto">
                     <span style="font-size: 12px; font-weight: 500" class=" text-dark">Home</span>
             </a>
@@ -89,7 +82,7 @@
 
             
 
-            <a href="services.php" class="text-center" style="line-height: 7px">
+            <a href="#" class="text-center" style="line-height: 7px">
                     <img src="img/topnav/plus-user.svg" alt="" width="20px" class="d-block mx-auto">
                     <span style="font-size: 12px; font-weight: 500" class=" text-dark">Seller</span>
             </a>

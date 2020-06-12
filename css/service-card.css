@@ -132,6 +132,26 @@
     z-index: 900;
 }
 
+.index-show {
+ 
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-content: stretch;
+    position: relative;
+    -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.index-show .card{
+    overflow: hidden;
+    min-width: 48% ;
+    min-height: 150px;
+    margin: 0.1rem;
+    border-radius: 0px;
+}
+
+
+
 
 
 

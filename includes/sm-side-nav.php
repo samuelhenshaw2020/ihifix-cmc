@@ -1,10 +1,14 @@
-<button class="navbar-toggler  btn btn-link px-0 side-nav-btn" >
-    <img src="img/navbar/open-menu.svg" alt="ihifix logo" width="20px" style="opacity: 0.7">
+<button class="navbar-toggler  btn btn-link px-0 side-nav-btn  " >
+    <img src="img/navbar/open-menu.svg" alt="ihifix logo" width="25px" style="opacity: 0.6">
 </button>
 
 <div class="side-nav shadow has-background-white p-2 " >
       <main class="d-flex flex-column h-100 ">
           <section  >
+            <a class="button is-rounded is-white is-small "  href="index.php">
+              <img src="img/float-nav/back.svg" alt="ihifix logo" width="20px">
+            </a>
+
               <img src="img/logo.png" alt="ihifix logo" width="90px">
               <button class="button is-white is-rounded side-nav-btn float-right">
                   <img src="img/navbar/close.svg" alt="" width="17px" style="opacity: 0.7">
@@ -15,8 +19,8 @@
 
           <section class=" text-center">
               <div class="">
-                      <button class="button is-success   my-1 x-font-600  w-75" >Become a Seller </button>
-                      <button class="button border  border  my-1 x-font-600  w-75">Login</button>
+                      <button class="button is-danger shadow-sm   my-1 x w-75" >Become a Seller </button>
+                      <button class="button border  border  my-1 shadow-sm  w-75">Login</button>
               </div>
               <br>
 
@@ -36,7 +40,7 @@
           </section>
 
           <section class="mt-auto text-center">
-            <button class="button border  border  my-1 x-font-600  w-75 ">Login</button>
+            <button class="button border  border  my-1 shadow-sm  w-75 ">Login</button>
           </section>
          
       </main>
