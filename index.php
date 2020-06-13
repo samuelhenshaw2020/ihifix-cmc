@@ -21,7 +21,7 @@
                     <input type="text" class="input py-4 border-0 is-rouned has-bakground-light" placeholder="Search.."  onfocus="$('#loc').hide('slow')">
                     <div class="d-flex" >
                         <button class="button is-rounded has-background-ligh bg-ligt is-white my-auto px-2" onclick="$('#loc').toggle('fast')">
-                            <img src="img/services/location.svg"  width="35px"  style="opacity: 0.5" >
+                            <img src="img/services/location.svg"  width="35px"  style="opacity: 0.4" >
                         </button>
                         <select class="form-control px-1       my-auto has border-0  x-text-dark x-font-500 " onchange="$('#srch').html($('#loc').val())"  id="loc" style="font-size: 14px; display: none; width: 100px" >
                             <option value="Nigeria">Nigeria</option>
@@ -99,7 +99,7 @@
                         <h1 class="x-font-500 text-center display-4 text-sm-left ">Take your Business, Hobbies and Products to the Public </h1>
                         <p class=" lead x-text-dark d-none d-sm-inline">Discover the joy on harnessing the digital space with  Ihifix. Over billions of potential customers are waiting</p>
                         <button class="button btn-white  is-rouned x-font-500  shadow-sm mt-1  is-large ">
-                            <span class="mr-2">Get Started</span>
+                            <span class="mr-2">Learn more</span>
                             <i class="fa fa-chevron-right has-text-danger  fa-lg "></i>
                         </button>
                         </div>
