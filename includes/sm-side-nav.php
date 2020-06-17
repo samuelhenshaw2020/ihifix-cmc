@@ -1,6 +1,4 @@
-<button class="navbar-toggler  btn btn-link px-0 side-nav-btn  " >
-    <img src="img/navbar/open-menu.svg" alt="ihifix logo" width="25px" style="opacity: 0.6">
-</button>
+
 
 <div class="side-nav shadow has-background-white p-2 " >
       <main class="d-flex flex-column h-100 ">

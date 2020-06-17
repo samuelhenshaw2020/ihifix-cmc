@@ -19,12 +19,17 @@
 
 
         
-<nav class="navbar    sticky-top bg-white ">
+<nav class="navbar    fixed-top  index-nav py-1">
     <?php include('includes/sm-side-nav.php') ?>
-
-    <a class="button is-rounde is-sma   btn-outline-danger is- x-font-500 btn-sm " href="#">
+    <button class="navbar-toggler  btn btn-link px-0 side-nav-btn  " >
+    <img src="img/navbar/open-menu-white.svg" alt="ihifix logo" width="25px" style="opacity: 0.6">
+</button>
+    <a href="index.php" class="navbar-brand ml-3 ">
+                            <img src="img/logo-white.png" alt="ihifix logo" width="90px">
+                    </a>
+    <!-- <a class="button is-rounde is-sma   btn-outline-danger is- x-font-500 btn-sm " href="#">
                     <span class="" >Get Online</span>
-    </a>
+    </a> -->
     
   
 

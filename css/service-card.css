@@ -144,10 +144,12 @@
 
 .index-show .card{
     overflow: hidden;
-    min-width: 48% ;
+    min-width: 23% ;
     min-height: 150px;
-    margin: 0.1rem;
+    margin: 0.5rem;
     border-radius: 0px;
+    border: none;
+
 }
 
 
@@ -161,7 +163,14 @@
 
 
 
+
+
 @media (max-width: 600px){
+    .index-show .card{
+        min-width: 47% ;
+    margin: 0.1rem;
+
+    }
     .service-card{
         min-width: 90%;
     }

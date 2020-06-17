@@ -3,6 +3,9 @@
     <main class="container">
         <div >
             <?php include('sm-side-nav.php') ?>
+            <button class="navbar-toggler  btn btn-link px-0 side-nav-btn  " >
+    <img src="img/navbar/open-menu.svg" alt="ihifix logo" width="25px" style="opacity: 0.6">
+</button>
             <a href="index.php" class="navbar-brand d-none d-sm-inline">
                 <img src="img/logo.png" alt="ihifix logo" width="90px">
             </a>
