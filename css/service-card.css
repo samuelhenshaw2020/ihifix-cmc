@@ -158,7 +158,9 @@
 
 }
 
-
+.index-show .card:hover{
+    background-color: #fff6f6;
+}
 
 
 @media (max-width: 600px){

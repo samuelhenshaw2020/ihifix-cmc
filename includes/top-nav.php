@@ -1,7 +1,7 @@
 <main class="container px-0">
 <img src="img/banner.JPG" alt="top banner image" class="img img-fluid">
 <nav class=" d-sm-flex  justify-content-between">
-   <div class="">
+   <!-- <div class="">
         <ul class="nav text-center ">
             <li class="nav-item">
                     <a class="button is-light is-rounded px-1">
@@ -22,7 +22,7 @@
                     </a>
             </li>
         </ul>
-   </div>
+   </div> -->
 
     <div class=" my-auto">
         <ul class="nav ">

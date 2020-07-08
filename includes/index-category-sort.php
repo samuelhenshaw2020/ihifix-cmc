@@ -1,6 +1,6 @@
 <div class="pt-3">
     <div class=" side-container d-flex m-auto  " >
-             <a href="#" class="text-center mr-2 " style="line-height: 15px; min-width: 65px">
+             <a href="store-all-category.php" class="text-center mr-2 " style="line-height: 15px; min-width: 65px">
                     <img src="img/navbar/category.svg" alt="" width="20px" class="d-block mx-auto">
                     <span style="font-size: 11.5px; font-weight: 500" class=" text-dark">All Category</span>
             </a>
