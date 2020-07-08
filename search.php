@@ -8,13 +8,9 @@
 <main  class=" container search-container  p-sm-2 my-2">
     <section class="p-2 has-background-white my-2">
         <div class="py-1 d-flex  ">
-
-            <div class="control  has-icons-left  d-sm-none">
-                <span class="icon ">
-                    <i class="fa fa-search  x-text-dark"></i>
-                </span>
-                <input class="input  is-normal is-rounded  " type="search"  placeholder="Search courses, programs...">
-            </div>
+            <button class="button is-success">
+                Filter
+            </button>
             <span class="small  my-auto lead x-text-dark d-none d-sm-inline x-font-500" >336 Results for “Tablet and Phone”</span>
 
 

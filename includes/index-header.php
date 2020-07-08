@@ -13,23 +13,33 @@
     <link rel="stylesheet" href="css/search.css">
     <link rel="stylesheet" href="css/service-card.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
-	<!-- <link rel="stylesheet" href="https://gitcdn.xyz/cdn/angular/bower-material/v1.1.21/angular-material.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+
+    <!-- <link rel="stylesheet" href="https://gitcdn.xyz/cdn/angular/bower-material/v1.1.21/angular-material.css"> -->
+    
 </head>
-<body class="bg-white"  >
+<body class="bg-white" ng-app="App" >
 
 
         
-<nav class="navbar    fixed-top  index-nav py-1">
-    <?php include('includes/sm-side-nav.php') ?>
-    <button class="navbar-toggler  btn btn-link px-0 side-nav-btn  " >
-    <img src="img/navbar/open-menu-white.svg" alt="ihifix logo" width="25px" style="opacity: 0.6">
-</button>
+<nav class="navbar  fixed-top  index-nav py-1">
+     <?php 
+    //  include('includes/sm-side-nav.php') 
+     ?>
+    <!-- <button class="navbar-toggler  btn btn-link px-0 side-nav-btn  " >
+    <img src="img/navbar/open-menu.svg" alt="ihifix logo" width="20px" style="opacity: 0.6">
+    </button>  -->
     <a href="index.php" class="navbar-brand ml-3 ">
-                            <img src="img/logo-white.png" alt="ihifix logo" width="90px">
-                    </a>
-    <!-- <a class="button is-rounde is-sma   btn-outline-danger is- x-font-500 btn-sm " href="#">
-                    <span class="" >Get Online</span>
-    </a> -->
+            <img src="img/logo.png" alt="ihifix logo" width="90px">
+    </a>
+
+<!-- 
+        
+    <a href="" class="nav-link text-dark font-monserrat">
+                    <i class="fa fa-play-circle"></i>
+                    Watch Video
+                </a> -->
     
   
 

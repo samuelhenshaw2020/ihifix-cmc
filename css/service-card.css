@@ -1,3 +1,7 @@
+.center-contain{
+    max-width: 500px
+  }
+
 .service-card,.service-card-inner{
     -webkit-transition: all 1s;
     transition: all 1s;
@@ -62,7 +66,7 @@
     overflow: hidden;
     width: 300px;;
     min-width: 300px ;
-    min-height: 300px;
+    min-height: 300px ;
     margin: 0.5rem;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
     
@@ -144,31 +148,24 @@
 
 .index-show .card{
     overflow: hidden;
-    min-width: 23% ;
-    min-height: 150px;
+    /* display: block; */
+    min-width: 200px ;
+    min-height: 200px;
     margin: 0.5rem;
-    border-radius: 0px;
+    border-radius: 50%;
     border: none;
+    transition: all 0.4s
 
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 600px){
     .index-show .card{
-        min-width: 47% ;
-    margin: 0.1rem;
+        min-width: 43% ;
+        min-height: 150px;
+        margin: 0.1rem;
 
     }
     .service-card{

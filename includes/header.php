@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/sm-side-nav.css">
     <link rel="stylesheet" href="css/search.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
     <link rel="stylesheet" href="css/service-card.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body class="has-background-light" >
     <?php 

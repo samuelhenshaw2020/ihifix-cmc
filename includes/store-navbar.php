@@ -42,13 +42,13 @@
             </div>
 
 
-            <div class="dropdown  is-right">
+            <div class="dropdown  is-right ">
                 <button class="button is-white is-rounded px-1 px-sm-4" data-toggle="dropdown">
                     <span class="icon ">
                         <img src="img/topnav/user.svg" alt="cart" width="22px">
                     </span>
                     <span class="x-font-500 d-none d-sm-inline">Account &nbsp;</span>
-                    <i class="fa fa-angle-down font-weight-bold  x-text-dark "></i>
+                    <!-- <i class="fa fa-angle-down font-weight-bold  x-text-dark "></i> -->
                 </button>
                 <div class="dropdown-menu text-center ">
                     <button class="btn btn-danger w-75 my-1 x-font-600 x-shadow">Login </button>
