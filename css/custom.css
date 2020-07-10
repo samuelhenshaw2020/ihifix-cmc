@@ -23,6 +23,19 @@ body{
 .autocomplete {
   position: relative;
   display: block;
+ 
+}
+
+.br-all{
+  border-radius: 30px;
+
+}
+
+.br-top-right-left{
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 .autocomplete input {
   border: 1px solid transparent;
@@ -45,11 +58,14 @@ body{
   border-radius: 2px;
   border-bottom: none;
   border-top: none;
-  z-index: 1200;
+  z-index: 99;
   /*position the autocomplete items to be the same width as the container:*/
   top: 100%;
   left: 0;
   right: 0;
+  /* overflow-y: scroll;
+  height: 300px; */
+  
 }
 
 

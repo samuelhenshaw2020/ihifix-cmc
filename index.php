@@ -24,7 +24,7 @@
          </main>
         
          <div class="center-contain mx-auto">
-                <div class="autocomplete d-flex has-background-white shadow-sm  border  " style="  ">
+                <div class="autocomplete d-flex has-background-white shadow-sm  border  br-all" >
                             <input type="text" class="form-control  px-4 border-0 has-bakground-light" placeholder="Search.." 
                             onfocus="$('#loc').hide('slow')" ng-keyup="searchQuery($event)" style="padding-top: 28px; padding-bottom: 28px;border-radius: 30px">
                                 <div class="text-center p-3  " ng-show="searching">
@@ -34,7 +34,7 @@
                                 <div class="small p-2 my-1 search-item" >
                                     <a href="#" class="nav-item">{{item.title}}</a>
                                 </div> -->
-                                <ul class="autocomplete-items list-group-flush  text-dark bg-white dropdown d-block listgroup" style="z-index:1200">
+                                <ul class="autocomplete-items  list-group-flush  text-dark bg-white dropdown d-block listgroup" style="z-index:1200">
                                     <li class="list-group-item list-group-item-action"  ng-repeat="item in searchResult">
                                         <i class="fa fa-search"></i>
                                         &nbsp;
@@ -162,6 +162,9 @@ app.controller('searchCtrl', function($scope, $http){
     $scope.searchQuery = function(event){
         if(event.target.value == ''){
             $scope.searchResult = [];
+            $('.autocomplete').addClass('br-all')
+            $('.autocomplete').addClass('border')
+            $('.autocomplete').removeClass('br-top-right-left')
         }
 
         if(event.keyCode == 13 || event.keyCode == 8){
@@ -186,11 +189,18 @@ app.controller('searchCtrl', function($scope, $http){
         function success(res){
             $scope.searchResult = res.data;
             $scope.searching = false;
+            if($scope.searchResult.length > 0){
+                $('.autocomplete').removeClass('br-all')
+                $('.autocomplete').removeClass('border')
+
+                $('.autocomplete').addClass('br-top-right-left')
+            }
         },
 
         function error(err){
             $scope.searching = false;
-
+            $('.autocomplete').addClass('br-all')
+            $('.autocomplete').removeClass('br-top-right-left')
         });
     }
 })
