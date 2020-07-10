@@ -2,9 +2,9 @@
 <?php include('includes/index-header.php') ?>
 
 <div class="bg-light">
-<section class="container-fluid   bg-anime px-sm-3 pt-4 " >
+<section class="container-fluid   bg-anime px-sm-3 pt-4 " ng-controller="searchCtrl">
          <main class="container">
-            <main class="pb-2 pt-5 px-sm-5  mx-auto col-md " ng-controller="searchCtrl">
+            <main class="pb-2 pt-5 px-sm-5  mx-auto col-md " >
                 <div class="text-center ">  
                     <h1 class="  text-danger  font-monserrat">
                         Get Online
@@ -24,17 +24,17 @@
          </main>
         
          <div class="center-contain mx-auto">
-                <div class="autocomplete d-flex has-background-white shadow-sm  border  " style="border-radius: 2px; border-radius: 30px; overflow: hidden">
-                            <input type="text" class="form-control  px-4 border-0 has-bakground-light" placeholder="Search.."
-                            onfocus="$('#loc').hide('slow')" ng-keyup="search($event)" style="padding-top: 28px; padding-bottom: 28px">
-                                <div class="text-center p-2  " ng-show="searching">
-                                    <span class="spinner-border spinner-border-sm" ></span>
+                <div class="autocomplete d-flex has-background-white shadow-sm  border  " style="  ">
+                            <input type="text" class="form-control  px-4 border-0 has-bakground-light" placeholder="Search.." 
+                            onfocus="$('#loc').hide('slow')" ng-keyup="searchQuery($event)" style="padding-top: 28px; padding-bottom: 28px;border-radius: 30px">
+                                <div class="text-center p-3  " ng-show="searching">
+                                    <span class="spinner-border text-secondary spinner-border-sm" ></span>
                                 </div>
                                 <!-- 
                                 <div class="small p-2 my-1 search-item" >
                                     <a href="#" class="nav-item">{{item.title}}</a>
                                 </div> -->
-                                <ul class="autocomplete-items list-group-flush  text-dark bg-white dropdown d-block listgroup">
+                                <ul class="autocomplete-items list-group-flush  text-dark bg-white dropdown d-block listgroup" style="z-index:1200">
                                     <li class="list-group-item list-group-item-action"  ng-repeat="item in searchResult">
                                         <i class="fa fa-search"></i>
                                         &nbsp;
@@ -45,7 +45,7 @@
 
                     
                         
-                        <div class="d-flex" >
+                        <div class="d-flex" ng-show="!searching">
                             <button class="button is-rounded has-background-ligh bg-ligt is-white my-auto px-2" onclick="$('#loc').toggle('fast')">
                                 <img src="img/services/filter.svg"  width="35px"  style="opacity: 0.4" >
                             </button>
@@ -154,12 +154,12 @@ if(window.scrollY < 100){
 </script>
 <script>
 var app = angular.module('App', []);
-app.controller('searchCtrl', ['$scope', '$http', function($scope, $http){
+app.controller('searchCtrl', function($scope, $http){
+    
     $scope.searching = false;
     $scope.searchResult = []
 
-    $scope.search = function(event){
-
+    $scope.searchQuery = function(event){
         if(event.target.value == ''){
             $scope.searchResult = [];
         }
@@ -193,5 +193,5 @@ app.controller('searchCtrl', ['$scope', '$http', function($scope, $http){
 
         });
     }
-}])
+})
 </script>

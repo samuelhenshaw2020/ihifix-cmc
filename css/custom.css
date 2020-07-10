@@ -45,7 +45,7 @@ body{
   border-radius: 2px;
   border-bottom: none;
   border-top: none;
-  z-index: 99;
+  z-index: 1200;
   /*position the autocomplete items to be the same width as the container:*/
   top: 100%;
   left: 0;
