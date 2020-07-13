@@ -34,11 +34,21 @@
 
         
 
-            <div class="control  has-icons-left mx-auto ">
-                <span class="icon ">
-                    <i class="fa fa-search  x-text-dark"></i>
-                </span>
-                <input class="input  is-normal  " type="search"  placeholder="Search courses, programs...">
+            
+            <div class=" autocomplete ">
+                <div class="control  has-icons-left mx-auto ">
+                    <span class="icon ">
+                        <i class="fa fa-search  x-text-dark"></i>
+                    </span>
+                    <input class="input  is-normal is-light " type="search"  placeholder="Search courses, programs...">
+                </div>
+                <div  class="autocomplete-items  list-group-flush  text-dark bg-white dropdown d-none listgroup" >
+                                    <li class="list-group-item list-group-item-action"  ng-repeat="item in searchResult">
+                                        <i class="fa fa-search"></i>
+                                        &nbsp;
+                                        {{item.title}}
+                                    </li>
+                </div>
             </div>
 
 
